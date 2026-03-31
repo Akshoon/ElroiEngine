@@ -37,7 +37,44 @@ const MapboxExample = () => {
         (layer) => layer.type === 'symbol' && layer.layout['text-field']
       )?.id;
 
-      // Solo agregar edificios 3D si el source 'composite' existe en el estilo
+      // ── TRÁFICO ────────────────────────────────────────────────────────────
+      // slot: 'bottom' → debajo de los edificios 3D del basemap Standard v3
+      mapRef.current.addSource('mapbox-traffic', {
+        type: 'vector',
+        url: 'mapbox://mapbox.mapbox-traffic-v1',
+      });
+
+      mapRef.current.addLayer({
+        id: 'traffic-layer',
+        slot: 'middle',           // ← clave: queda bajo los 3D buildings del Standard
+        type: 'line',
+        source: 'mapbox-traffic',
+        'source-layer': 'traffic',
+        minzoom: 0,
+        layout: {
+          'line-join': 'round',
+          'line-cap': 'round',
+          'visibility': 'visible',
+        },
+        paint: {
+          'line-width': [
+            'interpolate', ['linear'], ['zoom'],
+            6, 1.5, 14, 3, 18, 6,
+          ],
+          'line-color': [
+            'match',
+            ['get', 'congestion'],
+            'low', '#00C853',
+            'moderate', '#FFD600',
+            'heavy', '#FF6D00',
+            'severe', '#D50000',
+            '#aaaaaa',
+          ],
+          'line-opacity': 0.85,
+        },
+      });
+
+      // Edificios 3D (se agregan después = quedan ENCIMA del tráfico)
       if (mapRef.current.getSource('composite')) {
         mapRef.current.addLayer(
           {
@@ -63,44 +100,6 @@ const MapboxExample = () => {
           labelLayerId
         );
       }
-
-      // ── TRÁFICO ──────────────────────────────────────────────────────────
-      mapRef.current.addSource('mapbox-traffic', {
-        type: 'vector',
-        url: 'mapbox://mapbox.mapbox-traffic-v1',
-      });
-
-      mapRef.current.addLayer(
-        {
-          id: 'traffic-layer',
-          type: 'line',
-          source: 'mapbox-traffic',
-          'source-layer': 'traffic',
-          minzoom: 0,
-          layout: {
-            'line-join': 'round',
-            'line-cap': 'round',
-            'visibility': 'visible',
-          },
-          paint: {
-            'line-width': [
-              'interpolate', ['linear'], ['zoom'],
-              6, 1.5, 14, 3, 18, 6,
-            ],
-            'line-color': [
-              'match',
-              ['get', 'congestion'],
-              'low', '#00C853',
-              'moderate', '#FFD600',
-              'heavy', '#FF6D00',
-              'severe', '#D50000',
-              '#aaaaaa',
-            ],
-            'line-opacity': 0.85,
-          },
-        },
-        labelLayerId
-      );
 
       setTrafficReady(true);
     });
