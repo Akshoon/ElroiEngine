@@ -62,37 +62,37 @@ function App() {
                 <div className="item-title-row">
                   <span className="item-name">
                     <MapPinned size={15} color="#ff5a00" />
-                    Vehículo Sospechoso
-                    <span className="item-tag">CKAR</span>
+                    Vehículo Sospechoso (Encargo Robo)
+                    <span className="item-tag">CHLE</span>
                   </span>
-                  <span className="item-distance">91km</span>
+                  <span className="item-distance">2.3km</span>
                 </div>
                 <div className="item-details">
-                  <p><MapPin size={13} /> 3 Perry St, Campsie NSW 2194</p>
-                  <p><MapPin size={13} /> Shop 10.47/644 George St, Sydney</p>
-                  <p className="item-meta">2h 23m • 34km</p>
+                  <p><MapPin size={13} /> Antonio Varas 727, Puerto Montt</p>
+                  <p><MapPin size={13} /> Último avistamiento: Mall Paseo del Mar</p>
+                  <p className="item-meta">Hace 15m • 2.3km</p>
                 </div>
               </div>
 
               {/* Card 2 */}
               <div className="item-card">
                 <div className="item-header">
-                  <span className="item-id">DV-1220</span>
+                  <span className="item-id">P-133</span>
                   <span className="item-signal error-icon"><AlertCircle size={15} /></span>
                 </div>
                 <div className="item-title-row">
                   <span className="item-name">
                     <MapPinned size={15} color="#d9534f" />
-                    Reporte Retrasado
-                    <span className="item-tag">CKAR</span>
+                    Procedimiento Policial
+                    <span className="item-tag">GOPE</span>
                   </span>
-                  <span className="item-distance">56km</span>
+                  <span className="item-distance">4km</span>
                 </div>
                 <div className="item-details">
-                  <p><MapPin size={13} /> 3 Perry St, Campsie NSW 2194</p>
-                  <p><MapPin size={13} /> Shop 10.47/644 George St, Sydney</p>
+                  <p><MapPin size={13} /> Illapel 10, Puerto Montt</p>
+                  <p><MapPin size={13} /> Hotel Gran Pacífico, perímetro asegurado</p>
                   <p className="item-meta">
-                    2h 23m • 34km • <span className="status-red">65 minutos tarde</span>
+                    Hace 2h 23m • 4km • <span className="status-red">Apoyo requerido</span>
                   </p>
                 </div>
               </div>
@@ -107,15 +107,15 @@ function App() {
                   <span className="item-name">
                     <MapPinned size={15} color="#f0ad4e" />
                     Patrulla 04
-                    <span className="item-tag">CKAR</span>
+                    <span className="item-tag">GOPE</span>
                   </span>
-                  <span className="item-distance">128km</span>
+                  <span className="item-distance">1.2km</span>
                 </div>
                 <div className="item-details">
-                  <p><MapPin size={13} /> 3 Perry St, Campsie NSW 2194</p>
-                  <p><MapPin size={13} /> Shop 10.47/644 George St, Sydney</p>
+                  <p><MapPin size={13} /> Paseo Costanera, Puerto Montt</p>
+                  <p><MapPin size={13} /> Costanera Centro</p>
                   <p className="item-meta">
-                    2h 23m • 34km • <span className="status-yellow">Patrulla Detenida</span>
+                    Hace 5m • 1.2km • <span className="status-yellow">Control de Identidad</span>
                   </p>
                 </div>
               </div>
@@ -136,9 +136,6 @@ function App() {
       <aside className="left-sidebar">
         <div className="top-icon"><Lock size={18} /></div>
         <div className="social-icons">
-          <span>f</span>
-          <span>t</span>
-          <span>y</span>
         </div>
         <div className="bottom-icon"><Share2 size={18} /></div>
       </aside>
@@ -148,9 +145,6 @@ function App() {
         <header className="top-nav">
           <nav>
             <a href="#">Inicio</a>
-            <a href="#">Sobre Nosotros</a>
-            <a href="#">Blog</a>
-            <a href="#">Contacto</a>
           </nav>
           <div className="menu-burger"><Menu size={28} /></div>
         </header>
@@ -177,29 +171,18 @@ function App() {
             <div className="schedule-item">
               <span className="date">HOY, 15</span>
               <div className="details">
-                <strong>ZONA PUERTO</strong>
+                <strong>OPERATIVO ACTIVO</strong>
                 <span className="time">11:00 AM</span>
-                <span className="location">"Cámara 04 - Sector Norte"</span>
+                <span className="location">"Allanamiento - Población Pichi Pelluco"</span>
               </div>
             </div>
             <div className="schedule-item">
               <span className="date">HOY, 21</span>
               <div className="details">
-                <strong>AV. PRINCIPAL</strong>
+                <strong>PERSECUCIÓN EN CURSO</strong>
                 <span className="time">10:30 AM</span>
-                <span className="location">"Sensor perimetral"</span>
+                <span className="location">"Vehículo robado vía Ruta 5 Sur"</span>
               </div>
-            </div>
-          </div>
-
-          <div className="preview-widget">
-            <div className="preview-card">
-              <span className="preview-label">MÓDULO 1</span>
-              <div className="preview-image-placeholder">Monitoreo 3D</div>
-            </div>
-            <div className="preview-card">
-              <span className="preview-label">MÓDULO 2</span>
-              <div className="preview-image-placeholder">Análisis AI</div>
             </div>
           </div>
         </section>
