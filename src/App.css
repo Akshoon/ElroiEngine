@@ -271,7 +271,7 @@
 
 .map-container {
   width: 150%;
-  height: 150%;
+  height: 0%;
   position: absolute;
   top: -10%;
   left: -15%;
@@ -296,9 +296,8 @@
   opacity: 0.8;
   filter: grayscale(80%) contrast(1.2);
   image-rendering: high-quality;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
   transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 .gradient-overlay {
