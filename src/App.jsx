@@ -166,7 +166,6 @@ function App() {
               <button className="btn-primary" onClick={() => setShowMap(true)}>
                 COMENZAR
               </button>
-              <button className="btn-secondary">PRUEBA GRATIS</button>
             </div>
           </div>
         </section>
@@ -208,7 +207,10 @@ function App() {
 
       {/* Background image layer */}
       <div className="background-layer">
-        <img src="/assets/puerto_montt.png" alt="Puerto Montt Mapa" />
+        <img className="title-overlay" src="/assets/title.png" alt="Elroi Title" />
+        <div className="map-container">
+          <img src="/assets/map.png" alt="Puerto Montt Mapa" />
+        </div>
         <div className="gradient-overlay" />
       </div>
     </div>

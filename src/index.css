@@ -12,3 +12,9 @@ html, body, #root, #app-root {
   overflow: hidden;
   font-family: 'Inter', system-ui, sans-serif;
 }
+
+/* Hide Mapbox watermark and attribution */
+.mapboxgl-ctrl-logo,
+.mapboxgl-ctrl-attrib {
+  display: none !important;
+}
