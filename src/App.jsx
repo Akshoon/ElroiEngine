@@ -11,6 +11,8 @@ function App() {
   const [showMap, setShowMap] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
   const [isReady, setIsReady] = useState(false);
+  const [isMapLoaded, setIsMapLoaded] = useState(false);
+  const [isMapReady, setIsMapReady] = useState(false);
 
   useEffect(() => {
     // Minimum wait of 0.7 seconds (700ms), wait until page fully loaded
@@ -31,9 +33,37 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+  useEffect(() => {
+    if (showMap) {
+      const timer = setTimeout(() => {
+        setIsMapLoaded(true);
+        setTimeout(() => setIsMapReady(true), 800);
+      }, 700);
+      return () => clearTimeout(timer);
+    } else {
+      setIsMapLoaded(false);
+      setIsMapReady(false);
+    }
+  }, [showMap]);
+
   if (showMap) {
     return (
-      <div className="map-view-container">
+      <div className={`map-view-container ${isMapLoaded ? 'is-loaded' : ''} ${isMapReady ? 'app-ready' : ''}`}>
+        {/* Loading Overlay */}
+        <div className="loader-wrapper" style={{ zIndex: 99999 }}>
+          <div className="banter-loader">
+            <div className="banter-loader__box"></div>
+            <div className="banter-loader__box"></div>
+            <div className="banter-loader__box"></div>
+            <div className="banter-loader__box"></div>
+            <div className="banter-loader__box"></div>
+            <div className="banter-loader__box"></div>
+            <div className="banter-loader__box"></div>
+            <div className="banter-loader__box"></div>
+            <div className="banter-loader__box"></div>
+          </div>
+        </div>
+
         <aside className="map-sidebar">
           {/* Icon rail */}
           <div className="icon-rail">

@@ -41,6 +41,7 @@
   color: var(--color-text);
   font-family: 'Inter', system-ui, sans-serif;
   overflow: hidden;
+  position: relative;
 }
 
 /* Sidebar */
@@ -53,6 +54,11 @@
   box-shadow: 2px 0 10px rgba(0, 0, 0, .5);
   z-index: 10;
   flex-shrink: 0;
+  opacity: 0;
+}
+
+.app-ready .map-sidebar {
+  animation: slideDownGlobal 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
 
 /* Icon rail */
@@ -602,6 +608,11 @@
   height: 100%;
   position: relative;
   min-width: 0;
+  opacity: 0;
+}
+
+.app-ready .map-area {
+  animation: fadeInGlobal 1.5s ease-in-out forwards;
 }
 
 
