@@ -5,55 +5,13 @@
             "type": "Feature",
             "properties": {
                 "tipo": "robo",
-                "intensidad": 9
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9435,
-                    -41.4705
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
                 "intensidad": 8
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9440,
-                    -41.4702
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 6
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9432,
-                    -41.4710
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9428,
-                    -41.4708
+                    -72.9463,
+                    -41.4691
                 ]
             }
         },
@@ -61,13 +19,13 @@
             "type": "Feature",
             "properties": {
                 "tipo": "asalto",
-                "intensidad": 10
+                "intensidad": 9
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9439,
-                    -41.4709
+                    -72.9471,
+                    -41.4695
                 ]
             }
         },
@@ -80,8 +38,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9443,
-                    -41.4712
+                    -72.9468,
+                    -41.4688
                 ]
             }
         },
@@ -89,96 +47,12 @@
             "type": "Feature",
             "properties": {
                 "tipo": "robo",
-                "intensidad": 8
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9431,
-                    -41.4699
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 9
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9429,
-                    -41.4703
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 4
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9441,
-                    -41.4698
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 6
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9436,
-                    -41.4713
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
                 "intensidad": 7
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9445,
-                    -41.4706
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9427,
-                    -41.4711
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 9
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9438,
+                    -72.9459,
                     -41.4697
                 ]
             }
@@ -187,13 +61,55 @@
             "type": "Feature",
             "properties": {
                 "tipo": "asalto",
+                "intensidad": 10
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9474,
+                    -41.4689
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9462,
+                    -41.4701
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9469,
+                    -41.4692
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
                 "intensidad": 8
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9442,
-                    -41.4704
+                    -72.9472,
+                    -41.4698
                 ]
             }
         },
@@ -206,8 +122,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9430,
-                    -41.4701
+                    -72.9465,
+                    -41.4686
                 ]
             }
         },
@@ -215,13 +131,13 @@
             "type": "Feature",
             "properties": {
                 "tipo": "robo",
-                "intensidad": 7
+                "intensidad": 6
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9434,
-                    -41.4700
+                    -72.9458,
+                    -41.4693
                 ]
             }
         },
@@ -234,50 +150,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9446,
-                    -41.4707
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 3
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9426,
-                    -41.4696
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 8
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9433,
-                    -41.4714
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 10
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9444,
-                    -41.4710
+                    -72.9467,
+                    -41.4687
                 ]
             }
         },
@@ -290,7 +164,343 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9425,
+                    -72.9470,
+                    -41.4700
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9461,
+                    -41.4696
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9457,
+                    -41.4689
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9464,
+                    -41.4703
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9473,
+                    -41.4694
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9466,
+                    -41.4699
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9459,
+                    -41.4684
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9468,
+                    -41.4704
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 10
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9475,
+                    -41.4690
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9462,
+                    -41.4685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9456,
+                    -41.4698
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9471,
+                    -41.4702
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9463,
+                    -41.4690
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9469,
+                    -41.4683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9458,
+                    -41.4705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9465,
+                    -41.4693
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9474,
+                    -41.4696
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9467,
+                    -41.4701
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9459,
+                    -41.4692
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9345,
+                    -41.4692
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9339,
+                    -41.4696
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9342,
+                    -41.4687
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9351,
+                    -41.4699
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 10
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9336,
+                    -41.4688
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9348,
                     -41.4702
                 ]
             }
@@ -299,12 +509,124 @@
             "type": "Feature",
             "properties": {
                 "tipo": "robo",
+                "intensidad": 9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9340,
+                    -41.4693
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9337,
+                    -41.4698
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
                 "intensidad": 6
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9437,
+                    -72.9346,
+                    -41.4685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9352,
+                    -41.4694
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9341,
+                    -41.4689
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9338,
+                    -41.4700
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9347,
+                    -41.4696
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9353,
+                    -41.4688
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9344,
                     -41.4703
                 ]
             }
@@ -312,14 +634,112 @@
         {
             "type": "Feature",
             "properties": {
+                "tipo": "robo",
+                "intensidad": 9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9335,
+                    -41.4694
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "tipo": "asalto",
+                "intensidad": 8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9342,
+                    -41.4699
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9350,
+                    -41.4684
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
                 "intensidad": 7
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9441,
-                    -41.4715
+                    -72.9341,
+                    -41.4704
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 10
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9334,
+                    -41.4690
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9348,
+                    -41.4685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9354,
+                    -41.4698
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9339,
+                    -41.4702
                 ]
             }
         },
@@ -332,8 +752,50 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9428,
-                    -41.4706
+                    -72.9347,
+                    -41.4690
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9341,
+                    -41.4683
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9352,
+                    -41.4705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9345,
+                    -41.4693
                 ]
             }
         },
@@ -346,7 +808,21 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9439,
+                    -72.9336,
+                    -41.4696
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9343,
                     -41.4701
                 ]
             }
@@ -354,56 +830,28 @@
         {
             "type": "Feature",
             "properties": {
-                "tipo": "robo",
-                "intensidad": 8
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9375,
-                    -41.4780
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9380,
-                    -41.4775
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "tipo": "hurto",
-                "intensidad": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9368,
-                    -41.4785
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
                 "intensidad": 6
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9372,
-                    -41.4782
+                    -72.9351,
+                    -41.4692
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9563,
+                    -41.4614
                 ]
             }
         },
@@ -416,50 +864,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9379,
-                    -41.4788
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 4
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9369,
-                    -41.4779
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9383,
-                    -41.4783
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 8
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9376,
-                    -41.4776
+                    -72.9569,
+                    -41.4619
                 ]
             }
         },
@@ -472,92 +878,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9367,
-                    -41.4787
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 6
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9374,
-                    -41.4784
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9381,
-                    -41.4778
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 4
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9366,
-                    -41.4781
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 9
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9378,
-                    -41.4786
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 8
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9382,
-                    -41.4782
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9370,
-                    -41.4777
+                    -72.9565,
+                    -41.4609
                 ]
             }
         },
@@ -570,50 +892,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9373,
-                    -41.4789
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 9
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9384,
-                    -41.4784
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 3
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9365,
-                    -41.4783
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 8
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9377,
-                    -41.4779
+                    -72.9558,
+                    -41.4617
                 ]
             }
         },
@@ -626,8 +906,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9385,
-                    -41.4787
+                    -72.9572,
+                    -41.4612
                 ]
             }
         },
@@ -636,236 +916,12 @@
             "properties": {
                 "tipo": "hurto",
                 "intensidad": 4
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9369,
-                    -41.4786
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 6
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9376,
-                    -41.4781
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9380,
-                    -41.4789
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9368,
-                    -41.4778
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 9
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9379,
-                    -41.4783
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 9
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9550,
-                    -41.4750
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 8
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9545,
-                    -41.4745
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 6
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9560,
-                    -41.4755
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9555,
-                    -41.4752
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 9
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9548,
-                    -41.4748
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9562,
-                    -41.4758
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 8
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9551,
-                    -41.4749
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9547,
-                    -41.4753
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 4
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9563,
-                    -41.4751
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 6
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9556,
-                    -41.4756
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 8
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9546,
-                    -41.4746
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 5
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -72.9561,
-                    -41.4754
+                    -41.4621
                 ]
             }
         },
@@ -878,8 +934,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9552,
-                    -41.4747
+                    -72.9567,
+                    -41.4615
                 ]
             }
         },
@@ -892,8 +948,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9549,
-                    -41.4757
+                    -72.9570,
+                    -41.4620
                 ]
             }
         },
@@ -901,27 +957,27 @@
             "type": "Feature",
             "properties": {
                 "tipo": "hurto",
+                "intensidad": 6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9559,
+                    -41.4608
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
                 "intensidad": 6
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -72.9564,
-                    -41.4753
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9557,
-                    -41.4748
+                    -41.4616
                 ]
             }
         },
@@ -934,8 +990,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9544,
-                    -41.4752
+                    -72.9568,
+                    -41.4610
                 ]
             }
         },
@@ -943,13 +999,13 @@
             "type": "Feature",
             "properties": {
                 "tipo": "hurto",
-                "intensidad": 3
+                "intensidad": 5
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9565,
-                    -41.4757
+                    -72.9557,
+                    -41.4622
                 ]
             }
         },
@@ -962,8 +1018,92 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9553,
-                    -41.4751
+                    -72.9562,
+                    -41.4618
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9573,
+                    -41.4613
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 4
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9556,
+                    -41.4611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9569,
+                    -41.4617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9571,
+                    -41.4619
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 3
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9558,
+                    -41.4607
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9565,
+                    -41.4623
                 ]
             }
         },
@@ -976,8 +1116,50 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9543,
-                    -41.4749
+                    -72.9574,
+                    -41.4614
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9559,
+                    -41.4612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9563,
+                    -41.4620
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9567,
+                    -41.4616
                 ]
             }
         },
@@ -990,8 +1172,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -72.9560,
-                    -41.4759
+                    -72.9557,
+                    -41.4615
                 ]
             }
         },
@@ -999,405 +1181,83 @@
             "type": "Feature",
             "properties": {
                 "tipo": "robo",
+                "intensidad": 8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9568,
+                    -41.4613
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 7
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9572,
+                    -41.4622
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
+                "intensidad": 5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9556,
+                    -41.4619
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "robo",
+                "intensidad": 9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9569,
+                    -41.4621
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "asalto",
+                "intensidad": 8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.9573,
+                    -41.4618
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "tipo": "hurto",
                 "intensidad": 6
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -72.9558,
-                    -41.4754
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9542,
-                    -41.4750
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9563,
-                    -41.4747
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 9
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9554,
-                    -41.4758
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9060,
-                    -41.4280
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 6
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9055,
-                    -41.4275
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9065,
-                    -41.4285
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 6
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9058,
-                    -41.4282
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 8
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9053,
-                    -41.4278
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 4
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9067,
-                    -41.4281
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9061,
-                    -41.4279
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 6
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9056,
-                    -41.4284
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9068,
-                    -41.4283
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 6
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9059,
-                    -41.4277
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9054,
-                    -41.4282
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 4
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9066,
-                    -41.4276
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 8
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9062,
-                    -41.4284
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9057,
-                    -41.4279
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9069,
-                    -41.4282
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 6
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9058,
-                    -41.4285
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 8
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9052,
-                    -41.4277
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 3
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9064,
-                    -41.4286
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9060,
-                    -41.4278
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 9
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9051,
-                    -41.4280
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 4
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9067,
-                    -41.4279
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 6
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9059,
-                    -41.4283
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "asalto",
-                "intensidad": 7
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9053,
-                    -41.4286
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "hurto",
-                "intensidad": 5
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9065,
-                    -41.4277
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "tipo": "robo",
-                "intensidad": 8
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -72.9061,
-                    -41.4281
+                    -41.4610
                 ]
             }
         }
