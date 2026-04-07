@@ -3,6 +3,7 @@ import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import heatmapData from './data/data_heat_map.geojson';
 import { Route, Flame, Check } from 'lucide-react';
+import { THEME } from './theme';
 
 // Puerto Montt, Chile
 const PUERTO_MONTT = { lng: -72.9376, lat: -41.4693 };
@@ -197,14 +198,23 @@ const MapboxExample = ({ presetMode = 'dusk' }) => {
     <div style={{ position: 'relative', height: '100%', width: '100%' }}>
       <div id="map" ref={mapContainerRef} style={{ height: '100%', width: '100%' }} />
 
+      {/* ── Branded Watermark (top-right) ─────────────────────────────────── */}
+      <div style={{
+        position: 'absolute', top: '24px', right: '24px', zIndex: 10,
+        opacity: 0.3, pointerEvents: 'none', filter: 'grayscale(1) brightness(2)'
+      }}>
+        <img src="/assets/logos/ELROIENGINE.png" alt="ELROI Engine" style={{ height: '18px', width: 'auto' }} />
+      </div>
+
+
       {/* ── Selector de capas (bottom-right) ─────────────────────────────── */}
       <div style={{
         position: 'absolute', bottom: '28px', right: '12px', zIndex: 10,
         display: 'flex', alignItems: 'flex-end', gap: '8px',
         padding: '10px 14px', borderRadius: '16px',
-        backdropFilter: 'blur(20px)', WebkitBackdropFilter: 'blur(20px)',
-        background: 'rgba(10,12,20,0.80)',
-        boxShadow: '0 0 0 1px rgba(255,255,255,0.08), 0 8px 32px rgba(0,0,0,0.5)',
+        backdropFilter: `blur(${THEME.glass.blur})`, WebkitBackdropFilter: `blur(${THEME.glass.blur})`,
+        background: THEME.glass.bg,
+        boxShadow: `0 0 0 1px ${THEME.glass.border}, ${THEME.glass.shadow}`,
       }}>
 
         {/* Tráfico */}
@@ -213,12 +223,12 @@ const MapboxExample = ({ presetMode = 'dusk' }) => {
             background:'none', border:'none', cursor:'pointer', padding:'0' }}>
           <div style={{
             width:'56px', height:'56px', borderRadius:'12px', background:'rgba(30,34,48,0.9)',
-            border: trafficVisible ? '2.5px solid #00C853' : '2px solid rgba(255,255,255,0.1)',
+            border: trafficVisible ? `2.5px solid ${THEME.colors.success}` : `2px solid ${THEME.colors.border}`,
             display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', gap:'3px',
-            transition:'border 0.2s ease, box-shadow 0.2s ease', position:'relative',
-            boxShadow: trafficVisible ? '0 0 12px rgba(0,200,83,0.3)' : 'none',
+            transition: THEME.transitions.default, position:'relative',
+            boxShadow: trafficVisible ? `0 0 12px ${THEME.colors.success}4d` : 'none',
           }}>
-            <Route size={20} color={trafficVisible ? '#00C853' : '#555'} />
+            <Route size={20} color={trafficVisible ? THEME.colors.success : THEME.colors.muted} />
             <div style={{ display:'flex', gap:'2px' }}>
               {['#00C853','#FFD600','#FF6D00','#D50000'].map((c) => (
                 <span key={c} style={{ width:'8px', height:'3px', borderRadius:'1px',
@@ -236,7 +246,7 @@ const MapboxExample = ({ presetMode = 'dusk' }) => {
           </div>
           <span style={{ fontFamily:'Inter,sans-serif', fontSize:'11px',
             fontWeight: trafficVisible ? 700 : 400,
-            color: trafficVisible ? '#00C853' : '#666',
+            color: trafficVisible ? THEME.colors.success : THEME.colors.muted,
             letterSpacing:'0.02em', transition:'color 0.2s' }}>Tráfico</span>
         </button>
 
@@ -246,12 +256,12 @@ const MapboxExample = ({ presetMode = 'dusk' }) => {
             background:'none', border:'none', cursor:'pointer', padding:'0' }}>
           <div style={{
             width:'56px', height:'56px', borderRadius:'12px', background:'rgba(30,34,48,0.9)',
-            border: heatmapVisible ? '2.5px solid #FF5252' : '2px solid rgba(255,255,255,0.1)',
+            border: heatmapVisible ? `2.5px solid ${THEME.colors.accent}` : `2px solid ${THEME.colors.border}`,
             display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', gap:'5px',
-            transition:'border 0.2s ease, box-shadow 0.2s ease', position:'relative',
-            boxShadow: heatmapVisible ? '0 0 12px rgba(213,0,0,0.35)' : 'none',
+            transition: THEME.transitions.default, position:'relative',
+            boxShadow: heatmapVisible ? `0 0 12px ${THEME.colors.accent}4d` : 'none',
           }}>
-            <Flame size={22} color={heatmapVisible ? '#FF5252' : '#555'} />
+            <Flame size={22} color={heatmapVisible ? THEME.colors.accent : THEME.colors.muted} />
             <div style={{ width:'36px', height:'5px', borderRadius:'3px',
               background: heatmapVisible
                 ? 'linear-gradient(to right, #4169E1, #00C8C8, #FFD600, #FF6400, #D50000)'
@@ -268,7 +278,7 @@ const MapboxExample = ({ presetMode = 'dusk' }) => {
           </div>
           <span style={{ fontFamily:'Inter,sans-serif', fontSize:'11px',
             fontWeight: heatmapVisible ? 700 : 400,
-            color: heatmapVisible ? '#FF5252' : '#666',
+            color: heatmapVisible ? THEME.colors.accent : THEME.colors.muted,
             letterSpacing:'0.02em', transition:'color 0.2s' }}>Calor</span>
         </button>
       </div>

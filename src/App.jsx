@@ -347,14 +347,17 @@ function App() {
     return (
       <div className={`map-view-container ${isMapLoaded ? 'is-loaded' : ''} ${isMapReady ? 'app-ready' : ''}`}>
         <div className="loader-wrapper" style={{ zIndex: 99999 }}>
-          <div className="banter-loader">
-            {[...Array(9)].map((_, i) => <div key={i} className="banter-loader__box"></div>)}
+          <div className="logo-loader">
+            <img src="/assets/logos/LOGO_R_SOLA_Monocromatico.png" alt="Loading..." className="loader-logo-img" />
+            <div className="loader-progress-bar"></div>
           </div>
         </div>
 
         <aside className="map-sidebar">
           <div className="icon-rail">
-            <div className="rail-logo"><Crosshair size={26} /></div>
+            <div className="rail-logo">
+              <img src="/assets/logos/LOGO_R_SOLA.png" alt="Logo" style={{ width: 44, height: 44, objectFit: 'contain' }} />
+            </div>
             <div className={`rail-icon${activePanel === 'monitoreo' ? ' active' : ''}`} onClick={() => setActivePanel('monitoreo')}><Home size={20} /></div>
             <div className="rail-icon disabled"><Package size={20} /></div>
             <div className="rail-icon disabled"><Archive size={20} /></div>
@@ -380,8 +383,9 @@ function App() {
     <div className={`landing-container ${isLoaded ? 'is-loaded' : ''} ${isReady ? 'app-ready' : ''}`}>
       {/* Landing Loader */}
       <div className="loader-wrapper">
-        <div className="banter-loader">
-          {[...Array(9)].map((_, i) => <div key={i} className="banter-loader__box"></div>)}
+        <div className="logo-loader">
+          <img src="/assets/logos/LOGO_R_SOLA_Monocromatico.png" alt="Loading..." className="loader-logo-img" />
+          <div className="loader-progress-bar"></div>
         </div>
       </div>
 
@@ -399,7 +403,9 @@ function App() {
 
         <section className="hero-section">
           <div className="hero-text-area">
-            <h1 className="hero-title">EL<span className="accent">R</span>OI</h1>
+            <div className="hero-logo-box">
+              <img src="/assets/logos/ELROIENGINE.png" alt="ELROI Engine" className="hero-logo-img" />
+            </div>
             <p className="hero-description">Plataforma de vigilancia interactiva en tiempo real. Un sistema integral avanzado para monitoreo, alertas de seguridad y gestión territorial.</p>
             <div className="cta-buttons">
               <button className="btn-primary" onClick={() => setShowMap(true)}>COMENZAR</button>
